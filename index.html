@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script src="javascript.js">
+ 
+  </script>
+  <style>
+ .imeg{
+     background-image: url(calculat.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size:cover;
+ }
+ .butt{
+     width: 100%;
+     height: 70px;
+     /* padding: 20%; */
+     margin-left: 10%;
+  }
+</style>
+</head>
+<body class="imeg">
+    <div>
+        <input type="text" id="textbox" style="display: block;margin: auto;width: 40%;">
+    </div>
+ <div>
+
+     <!-- <button id="1" value="1" onclick="numbersoftext()"><h1>1</h1></button> -->
+
+</div><br><br>
+<div>
+   
+    <table style="width: 40%;height: auto;margin: auto;" >
+    <tr>
+       <th> </th>
+    </tr>
+        <tr>
+        <td><button id="1" value="1" onclick="numbersoftext(this.value)" class="butt">1</button></td>
+        <td><button id="2" value="2" onclick="numbersoftext(this.value)" class="butt">2</button></td>
+        <td><button id="1" value="3" onclick="numbersoftext(this.value)" class="butt">3</button></td>
+        <td><button id="1" value="+" onclick="numbersoftext(this.value)" style="margin-left:20%;" class="butt">+</button></td>
+
+    </tr>
+    <tr>
+        <td><button id="1" value="4" onclick="numbersoftext(this.value)" class="butt">4</button></td>
+        <td><button id="1" value="5" onclick="numbersoftext(this.value)" class="butt">5</button></td>
+        <td><button id="1" value="6" onclick="numbersoftext(this.value)" class="butt">6</button></td>
+        <td><button id="1" value="-" onclick="numbersoftext(this.value)"  style="margin-left:20%;" class="butt">-</button></td>
+    </tr>
+    <tr>
+        <td><button id="1" value="7" onclick="numbersoftext(this.value)" class="butt">7</button></td>
+        <td><button id="1" value="8" onclick="numbersoftext(this.value)" class="butt">8</button></td>
+        <td><button id="1" value="9" onclick="numbersoftext(this.value)" class="butt">9</button></td>
+        <td><button id="1" value="*" onclick="numbersoftext(this.value)" style="margin-left:20%;" class="butt">x</button></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td><button id="1" value="9" onclick="c()" class="butt">c</button></td>
+        <td><button id="1" value="/" onclick="numbersoftext(this.value)"  style="margin-left:20%;" class="butt">\</button></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><button id="1" value="0" onclick="numbersoftext(this.value)" class="butt">0</button></td>
+        <td></td>
+        <td><button id="1" value="?" onclick="calculatore()" style="margin-left:20%;" class="butt">=</button></td>
+    </tr>
+    </table>
+</div>
+</body>
+</html>
